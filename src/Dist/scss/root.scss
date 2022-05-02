@@ -1,0 +1,24 @@
+@import "fonts";
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  list-style: none;
+
+  a{
+    color: unset;
+    text-decoration: none;
+  }
+
+
+  &:active{
+    outline: none;
+    background: transparent;
+  }
+  &:focus{
+    outline: 0;
+    background: transparent;
+  }
+}
