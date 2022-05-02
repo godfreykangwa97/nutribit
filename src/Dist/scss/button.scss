@@ -1,0 +1,24 @@
+.icon-btn{
+  border: none;
+  background: transparent;
+}
+.btn{
+  padding: .5rem;
+  border: none;
+  border-radius: 5px;
+}
+.hire-btn{
+  background: $main;
+  color: $light;
+}
+
+.plain-btn{
+  background: transparent;
+}
+
+.bordered-btn{
+  border: 1px $main solid;
+  color: $main;
+  width: max-content;
+  height: max-content;
+}

@@ -1,6 +1,6 @@
 import React, {useMemo, useState} from 'react';
 import {Link} from "react-router-dom";
-import recipe from '../Assets/Data.json';
+import recipe from '../../Assets/Data.json';
 
 let DataSize = 3
 const RecentRecipes = () => {

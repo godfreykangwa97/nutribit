@@ -1,0 +1,74 @@
+.flex{
+  display: flex;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-inline{
+  display: inline-flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+.grid-3-no-space{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-8{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: .5rem;
+}
+
+.grid-5-no-space{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-5{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem;
+}
+
+.read-grid{
+  display: grid;
+  grid-template-columns: 65% auto;
+  grid-gap: 2rem;
+}
+
+.grid-20-80{
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-gap: 2rem;
+}
+.hire-class{
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-gap: 2rem;
+}

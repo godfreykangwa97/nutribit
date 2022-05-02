@@ -107,6 +107,11 @@
   grid-template-columns: 35% auto;
   grid-gap: 2rem; }
 
+.hire-class {
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-gap: 2rem; }
+
 .icon-btn {
   border: none;
   background: transparent; }
@@ -160,6 +165,323 @@
   padding-top: 4rem;
   padding-bottom: 4rem; }
 
+@media only screen and (max-width: 460px) {
+  .wrapper {
+    width: 95%;
+    margin: 0 auto; }
+
+  .header .header-holder .header-links-search .navigation {
+    position: fixed;
+    top: 70px;
+    right: -500px;
+    transition: right 3ms ease-in-out;
+    width: 250px;
+    max-width: 250px;
+    height: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    z-index: 8888; }
+  .header .header-holder .header-links-search .SlideRight {
+    right: 0;
+    transition: right 3ms ease-in-out; }
+  .header .header-holder .header-links-search .ToggleSidebar {
+    display: block; }
+
+  .home-search-wrapper {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    width: 250px;
+    height: 40px; }
+    .home-search-wrapper input {
+      border: none;
+      background: transparent;
+      width: 98%; }
+
+  .today .grid-3 {
+    grid-template-columns: 100%; }
+
+  .hire .hire-class {
+    grid-template-columns: 100%; }
+
+  .services .service-ad .ad .sponsored {
+    grid-template-columns: 100%; }
+  .services .providers .grid-5 {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .recipes .list .grid-5 {
+    grid-template-columns: repeat(2, 1fr); }
+  .recipes .read-grid {
+    grid-template-columns: 100%; }
+
+  .footer .footer-logo-holder {
+    display: none; }
+  .footer .grid-2 {
+    grid-template-columns: 100%; }
+    .footer .grid-2 .flex {
+      flex-direction: column;
+      gap: 2rem; } }
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 95%;
+    margin: 0 auto; }
+
+  .header .header-holder .header-links-search .navigation {
+    position: fixed;
+    top: 70px;
+    right: -500px;
+    transition: right 3ms ease-in-out;
+    width: 250px;
+    max-width: 250px;
+    height: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    z-index: 8888; }
+  .header .header-holder .header-links-search .SlideRight {
+    right: 0;
+    transition: right 3ms ease-in-out; }
+  .header .header-holder .header-links-search .ToggleSidebar {
+    display: block; }
+
+  .search .home-search-wrapper {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    width: 300px;
+    height: 40px; }
+    .search .home-search-wrapper input {
+      border: none;
+      background: transparent;
+      width: 98%; }
+
+  .today .grid-3 {
+    grid-template-columns: 100%; }
+
+  .hire .hire-class {
+    grid-template-columns: 100%; }
+
+  .services .service-ad .ad .sponsored {
+    grid-template-columns: 100%; }
+  .services .providers .grid-5 {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .recipes .list .grid-5 {
+    grid-template-columns: repeat(2, 1fr); }
+  .recipes .read-grid {
+    grid-template-columns: 100%; }
+
+  .footer .footer-logo-holder {
+    display: none; }
+  .footer .grid-2 {
+    grid-template-columns: 100%; } }
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    width: 95%;
+    margin: 0 auto; }
+
+  .header .header-holder .header-links-search .navigation {
+    position: fixed;
+    top: 70px;
+    right: -500px;
+    transition: right 3ms ease-in-out;
+    width: 250px;
+    max-width: 250px;
+    height: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    z-index: 8888; }
+  .header .header-holder .header-links-search .SlideRight {
+    right: 0;
+    transition: right 3ms ease-in-out; }
+  .header .header-holder .header-links-search .ToggleSidebar {
+    display: block; }
+
+  .search .home-search-wrapper {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    width: 300px;
+    height: 40px; }
+    .search .home-search-wrapper input {
+      border: none;
+      background: transparent;
+      width: 98%; }
+
+  .today .grid-3 {
+    grid-template-columns: repeat(3, 1fr); }
+
+  .hire .hire-class {
+    grid-template-columns: 100%; }
+
+  .services .service-ad .ad .sponsored {
+    grid-template-columns: 100%; }
+  .services .providers .grid-5 {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .recipes .list .grid-5 {
+    grid-template-columns: repeat(2, 1fr); }
+  .recipes .read-grid {
+    grid-template-columns: 100%; }
+
+  .footer .footer-logo-holder {
+    display: none; }
+  .footer .grid-2 {
+    grid-template-columns: 100%; } }
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 90%;
+    margin: 0 auto; }
+
+  .header {
+    background: #ffffff;
+    width: 100%;
+    height: 70px; }
+    .header .header-holder {
+      height: 70px; }
+      .header .header-holder .header-links-search .navigation {
+        position: relative;
+        top: 0;
+        right: 0;
+        background: transparent;
+        flex-direction: row; }
+      .header .header-holder .header-links-search .ToggleSidebar {
+        display: none; }
+
+  .search .home-search-wrapper {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    width: 500px;
+    height: 40px; }
+    .search .home-search-wrapper input {
+      border: none;
+      background: transparent;
+      width: 98%; }
+
+  .hire .hire-class {
+    grid-template-columns: 100%; }
+
+  .footer .footer-logo-holder {
+    display: block; }
+  .footer .grid-2 {
+    grid-template-columns: 100%; } }
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    width: 85%;
+    margin: 0 auto; }
+
+  .header {
+    background: #ffffff;
+    width: 100%;
+    height: 70px; }
+    .header .header-holder {
+      height: 70px; }
+      .header .header-holder .header-links-search .navigation {
+        position: relative;
+        top: 0;
+        right: 0;
+        background: transparent;
+        flex-direction: row; }
+      .header .header-holder .header-links-search .ToggleSidebar {
+        display: none; }
+
+  .search .home-search-wrapper {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    width: 700px;
+    height: 40px; }
+    .search .home-search-wrapper input {
+      border: none;
+      background: transparent;
+      width: 98%; }
+
+  .recipes .list .grid-5 {
+    grid-template-columns: repeat(5, 1fr); }
+  .recipes .read-grid {
+    grid-template-columns: 65% auto; }
+
+  .hire .hire-class {
+    grid-template-columns: 35% auto; }
+
+  .services .providers .grid-5 {
+    grid-template-columns: repeat(5, 1fr); }
+  .services .service-ad .ad .grid-20-80 {
+    grid-template-columns: 35% auto; }
+
+  .footer .footer-logo-holder {
+    display: block; }
+  .footer .grid-2 {
+    grid-template-columns: repeat(2, 1fr); } }
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    width: 85%;
+    margin: 0 auto; }
+
+  .header {
+    background: #ffffff;
+    width: 100%;
+    height: 70px; }
+    .header .header-holder {
+      height: 70px; }
+      .header .header-holder .header-links-search .navigation {
+        position: relative;
+        top: 0;
+        right: 0;
+        background: transparent;
+        flex-direction: row; }
+      .header .header-holder .header-links-search .ToggleSidebar {
+        display: none; }
+
+  .search .home-search-wrapper {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    width: 700px;
+    height: 40px; }
+    .search .home-search-wrapper input {
+      border: none;
+      background: transparent;
+      width: 98%; }
+
+  .recipes .list .grid-5 {
+    grid-template-columns: repeat(5, 1fr); }
+  .recipes .read-grid {
+    grid-template-columns: 65% auto; }
+
+  .hire .hire-class {
+    grid-template-columns: 35% auto; }
+
+  .services .providers .grid-5 {
+    grid-template-columns: repeat(5, 1fr); }
+  .services .service-ad .ad .grid-20-80 {
+    grid-template-columns: 35% auto; }
+
+  .footer .footer-logo-holder {
+    display: block; }
+  .footer .grid-2 {
+    grid-template-columns: repeat(2, 1fr); } }
 body {
   background: #F7F7F7; }
 
@@ -188,6 +510,15 @@ body {
   height: 70px; }
   .header .header-holder {
     height: 70px; }
+
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  transition: top 3ms ease-in-out;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
+  z-index: 9999; }
 
 .home .today .grid-3 {
   margin-top: 2rem; }
@@ -239,8 +570,7 @@ body {
 
 .services .service-ad {
   background: #ffffff;
-  width: 100%;
-  height: 100vh; }
+  width: 100%; }
   .services .service-ad .sponsored .cover {
     width: 100%;
     border-radius: 10px;
@@ -270,9 +600,6 @@ body {
 .hire {
   background: #ffffff; }
   .hire .hire-class {
-    display: grid;
-    grid-template-columns: 35% auto;
-    grid-gap: 2rem;
     align-items: center;
     height: max-content; }
   .hire .aside {

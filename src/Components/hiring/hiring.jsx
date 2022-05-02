@@ -1,7 +1,7 @@
 import React, {useMemo, useState} from 'react';
 import {Link} from "react-router-dom";
 
-import HireMe from "../Shared/serviceAds.json";
+import HireMe from "../../Shared/serviceAds.json";
 
 let DataSize = 1
 const Sponsored = () => {

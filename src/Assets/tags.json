@@ -1,0 +1,27 @@
+[
+  {
+    "id"  : 1,
+    "tag" : "Fruits",
+    "url" : "/recipes/fruits"
+  },
+  {
+    "id"  : 2,
+    "tag" : "Vegetables",
+    "url" : "/recipes/vegetables"
+  },
+  {
+    "id"  : 3,
+    "tag" : "Grains",
+    "url" : "/recipes/ grains"
+  },
+  {
+    "id"  : 4,
+    "tag" : "Protein",
+    "url" : "/recipes/protein foods"
+  },
+  {
+    "id"  : 5,
+    "tag" : "Dairy",
+    "url" : "/recipes/dairy"
+  }
+]

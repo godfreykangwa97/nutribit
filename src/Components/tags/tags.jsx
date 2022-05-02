@@ -1,5 +1,5 @@
 import React from 'react';
-import tag from '../Assets/tags.json';
+import tag from '../../Assets/tags.json';
 import {Link} from "react-router-dom";
 const Tags = () => {
     return (
